@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/reset.css">
+<style>
+	.container{
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:-150px;
+		margin-left:-200px;
+		width:400px;
+		height:300px;
+		line-height: 300px;
+		font-size:40pt;
+		font-family: 微软雅黑;
+		text-align:center;
+		font-weight:900;
+		box-shadow:0 0 10px rgba(0,0,0,0.5);
+		color:rgb(255, 206, 66);
+	}
+	.header{
+		position:absolute;
+		left:0;
+		right:0;
+		height: 30px;
+		background-color:rgb(255, 206, 66); 
+	}
+</style>
+</head>
+<body>
+	<div class="header">
+		<a href="javascript:history.back()">返回</a>
+	</div>
+	<div class="container">
+		404！你懂的!
+	</div>
+</body>
+</html>
